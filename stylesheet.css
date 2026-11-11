@@ -141,3 +141,25 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+/* Personal profile layout. */
+body { margin: 0; color: #222; background: #fff; line-height: 1.6; }
+main { max-width: 800px; margin: 0 auto; padding: 24px 20px; }
+.intro { display: flex; align-items: center; gap: 32px; margin-bottom: 32px; }
+.bio { flex: 1; min-width: 0; }
+.portrait { position: relative; display: block; flex: 0 0 30%; aspect-ratio: 1; overflow: hidden; border-radius: 50%; }
+/* Use the buffer around the square portrait to frame the face and shoulders. */
+.portrait img { position: absolute; width: 136%; max-width: none; height: auto; left: -18%; top: -18%; }
+h1.name { padding-top: 0; text-align: center; font-weight: 400; line-height: 1.25; }
+.contact { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 14px; }
+section { margin: 32px 0; }
+.section-note { margin: 6px 0 16px; color: #555; }
+.publications { padding-left: 20px; }
+.publications li { margin-bottom: 24px; }
+footer { margin-top: 40px; text-align: right; font-size: 12px; color: #555; }
+footer a { font-size: inherit; }
+a:focus-visible { outline: 2px solid #1772d0; outline-offset: 3px; }
+@media (max-width: 600px) {
+  main { padding: 24px 18px; }
+  .intro { flex-direction: column-reverse; gap: 24px; }
+  .portrait { flex: none; width: 180px; }
+}

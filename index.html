@@ -1,104 +1,60 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <title>Xiao (Sam) Huang</title>
     <meta name="author" content="Xiao (Sam) Huang">
+    <meta name="description" content="Xiao (Sam) Huang is a researcher at UC Berkeley working with Professor David Wagner on AI security.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
-
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Xiao (Sam) Huang
-                </p>
-                <p>
-                  I’m a fourth-year Computer Science student at <strong>UC Berkeley</strong>, advised by Professors <a href="https://people.eecs.berkeley.edu/~daw/">David Wagner</a> and <a href="https://people.eecs.berkeley.edu/~raluca/">Raluca Ada Popa</a>.
-                </p>
-                <p>
-                  My research focuses on <strong>AI Safety and Security</strong>, specifically exploring vulnerabilities in AI models and systems, responsibly deploying AI, and red-teaming emerging technologies.
-                <p style="text-align:center">
-                  <a href="mailto:xiao.huang@berkeley.edu">Email</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?hl=en&user=02-_uaQAAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/yourusername">Github</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/xiao-sam-huang-541a6a20a/">LinkedIn</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/profile.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/profile.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Publications</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          
-          <ul style="list-style-type: disc; padding-left: 20px;">
-            
-            <li style="margin-bottom: 20px;">
-              <span class="papertitle"><a href="https://arxiv.org/abs/2512.11147">MiniScope: A Least Privilege Framework for Authorizing Tool Calling Agents</a></span>
-              <br>
-              Jinhao Zhu, Kevin Tseng, Gil Vernik, <strong>Xiao Huang</strong>, Shishir G. Patil, Vivian Fang, Raluca Ada Popa
-              <br>
-              <em>Under Review</em>
-              <br>
-              <p>
-                We introduce a framework to enforce least-privilege principles for LLM Agents. MiniScope intercepts tool calls to verify user intent against allowable actions, effectively mitigating privilege escalation and unauthorized tool execution in agentic systems.
-              </p>
-            </li>
+    <main>
+      <header class="intro">
+        <div class="bio">
+          <h1 class="name">Xiao (Sam) Huang</h1>
+          <p>I’m a researcher at <strong>UC Berkeley</strong>, working with Professor <a href="https://people.eecs.berkeley.edu/~daw/">David Wagner</a>. I graduated from UC Berkeley with a B.A. in Computer Science in May 2026, where I also worked with Professor <a href="https://people.eecs.berkeley.edu/~raluca/">Raluca Ada Popa</a>.</p>
+          <p>My research focuses on <strong>AI security</strong>. I’m also broadly interested in computer security and AI safety.</p>
+          <nav class="contact" aria-label="Profile links">
+            <a href="mailto:xiao.huang@berkeley.edu">Email</a>
+            <a href="https://scholar.google.com/citations?hl=en&amp;user=02-_uaQAAAAJ">Scholar</a>
+            <a href="https://github.com/samhuangxiao">GitHub</a>
+            <a href="https://www.linkedin.com/in/xiao-sam-huang-541a6a20a/">LinkedIn</a>
+          </nav>
+        </div>
+        <a class="portrait" href="images/profile.jpg" aria-label="View square portrait of Xiao (Sam) Huang">
+          <img src="images/profile.jpg" alt="Xiao (Sam) Huang at UC Berkeley" fetchpriority="high">
+        </a>
+      </header>
 
-            <li style="margin-bottom: 20px;">
-              <span class="papertitle">GradShield: Alignment Preserving Finetuning</span>
-              <br>
-              Zhanhao Hu*, <strong>Xiao Huang*</strong>, Patrick Mendoza, Emad A. Alghamdi, Raluca Ada Popa, David Wagner
-              <br>
-              <em>ICLR 2026</em>
-              <br>
-              <p>
-                A defense mechanism designed to protect safety alignment during the fine-tuning process. We propose a gradient-direction filtering algorithm that detects and removes poisonous data samples, preventing the model from learning harmful behaviors from compromised datasets.
-              </p>
-            </li>
-            
-            <li style="margin-bottom: 20px;">
-              <span class="papertitle">JailbreaksOverTime: Detecting Jailbreak Attacks Under Distribution Shift</span>
-              <br>
-              Julien Piet, <strong>Xiao Huang</strong>, Dennis Jacob, Annabella Chow, Maha Alrashed, Geng Zhao, Zhanhao Hu, Chawin Sitawarin, Basel Alomair, David Wagner
-              <br>
-              <em>AISEC 2025</em>
-              <br>
-              <p>
-                We curated a large-scale dataset of jailbreak attacks containing temporal metadata to benchmark LLM defenses. Our analysis reveals how attack patterns shift over time and highlights the necessity for continuous learning solutions to detect evolving threats.
-              </p>
-            </li>
-            
-          </ul>
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <p style="text-align:right; font-size:small;">
-                  <br>
-                  Template adapted from <a href="https://github.com/jonbarron/website">Jon Barron</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          
-        </td>
-      </tr>
-    </tbody></table>
+      <section aria-labelledby="publications">
+        <h2 id="publications">Publications</h2>
+        <p class="section-note">See <a href="https://scholar.google.com/citations?hl=en&amp;user=02-_uaQAAAAJ">Google Scholar</a> for the latest publications. * Equal contribution.</p>
+        <ul class="publications">
+          <li>
+            <a class="papertitle" href="https://arxiv.org/abs/2607.19595">Twin Agent: Context Residual Compression for Privilege Separated Agents</a><br>
+            Z. Hu, D. Jacob*, <strong>X. Huang*</strong>, Z. Chen, B. Li, D. Wagner.<br>
+            <em>NeurIPS FLMSec Workshop, 2026</em> · <strong>Distinguished Paper</strong>
+          </li>
+          <li>
+            <a class="papertitle" href="https://arxiv.org/abs/2512.11147">MiniScope: Authorizing Agents with Least-Privilege Permissions</a><br>
+            J. Zhu, <strong>X. Huang</strong>, K. Tseng, G. Vernik, S. G. Patil, V. Fang, R. A. Popa.<br>
+            <em>Preprint</em>
+          </li>
+          <li>
+            <span class="papertitle">GradShield: Alignment Preserving Finetuning</span><br>
+            Z. Hu*, <strong>X. Huang*</strong>, P. Mendoza, E. A. Alghamdi, B. Alomair, R. A. Popa, D. Wagner.<br>
+            <em>NeurIPS, 2026</em>
+          </li>
+          <li>
+            <span class="papertitle">JailbreaksOverTime: Detecting Jailbreak Attacks Under Distribution Shift</span><br>
+            J. Piet, <strong>X. Huang</strong>, D. Jacob, A. Chow, M. Alrashed, G. Zhao, Z. Hu, C. Sitawarin, B. Alomair, D. Wagner.<br>
+            <em>ACM AISec, 2025</em>
+          </li>
+        </ul>
+      </section>
+
+      <footer>Template adapted from <a href="https://github.com/jonbarron/website">Jon Barron</a>.</footer>
+    </main>
   </body>
 </html>
